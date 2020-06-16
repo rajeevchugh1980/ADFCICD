@@ -1,0 +1,17 @@
+{
+	"name": "LAPTOPFileServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\DataOps",
+			"userId": "rajeev chugh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0NWQ3OGViMS05ZDk5LTQ0OTctYTIwMC0zNmE4ZjNmM2FiNGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "LaptopFilesIntegration",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

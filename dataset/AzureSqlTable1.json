@@ -1,0 +1,39 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "policyID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "statecode",
+				"type": "varchar"
+			},
+			{
+				"name": "county",
+				"type": "varchar"
+			},
+			{
+				"name": "eq_site",
+				"type": "varchar"
+			},
+			{
+				"name": "hu_site",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "InsuranceCopy"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
